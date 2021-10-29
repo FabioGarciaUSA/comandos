@@ -1,0 +1,5 @@
+IP publica :  129.151.123.85   -----cambiala por tu ip public obtenida en oracle
+
+LLaves acceso MV
+	 1) chmod 400 ssh-key-2021-10-17.key  (Privada)	
+	 2) ssh -i ssh-key-2021-10-17.key opc@129.151.123.85 (Publica)

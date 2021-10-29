@@ -1,0 +1,16 @@
+
+
+Pasos para instalar paquetes en la maquina virtual
+
+1): Actualizar paqutes 
+	sudo yum update
+2): Intalar git
+	sudo yum install git
+3): Intalar JDK
+	sudo yum install java-11-openjdk-devel
+4): Instalar maven
+	1: sudo yum-config-manager --add-repo http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo
+	2: sudo yum-config-manager --enable epel-apache-maven
+	3: sudo yum install -y apache-maven
+	4: sudo alternatives --config java
+	5: sudo alternatives --config javac
