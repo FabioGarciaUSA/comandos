@@ -11,7 +11,10 @@ CREAR REPOSITORIO------------
 
 ACTIALIZAR REPOSITORIO--------------
 	git status
+	git add .
 	git commit -m "comentario"
 	git push -u origin main
 	
+
+hola
 
